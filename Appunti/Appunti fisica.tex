@@ -56,11 +56,11 @@ $$\Delta l =  \pm 0.01m$$
 Detto a parole, la precisione con cui conosco questo valore è più o meno $0.01m$
 
 \subsubsection{Esempio 2}
-$$ l^{1} = 5.0\textbf{0} m$$
+$$ l^{1} = 5.0\textbf{0} m $$
  (la cifra affetta da incertezza è riportata in grassetto)
  
  Anche in questo caso, vediamo che l'incertezza è uguale a:
- $$\Delta l^{1} = \pm 0.01m$$
+ $$ \Delta l^{1} = \pm 0.01m $$
  
  \subsection{La notazione scientifica}
  I valori numerici,  molto spesso, vengono riportati utilizzando la \textbf{notazione scientifica}. 
@@ -516,10 +516,45 @@ $ c = 0 $ sappiamo che $ c = 0 $ quando $ a = 0 $ oppure $ b = 0 $ oppure $ \sin
 
 Inoltre sappiamo che $ \sin \Theta = 0 $ quando: 
 $$ \sin \Theta = 0 \quad s\,e \quad \Theta = 2n \cdot \frac{\pi}{2} = n\pi $$
-Cioè il $ \sin \Theta = 0 $ quando $ \Theta $ è un multiplo pari di $ \frac{\pi}{2} $ oppure è un multiplo intero di $ \pi $ .
+Cioè il $ \sin \Theta = 0 $ quando $ \Theta $ è un multiplo pari di $ \frac{\pi}{2} $ oppure è un multiplo intero di $ \pi $ . Notare che l'angolo compreso tra $ \overrightarrow{a} $ e $ \overrightarrow{b} $ è un multiplo intero di $ \pi $ , quando $\overrightarrow{a} $ e $ \overrightarrow{b} $ giacciono sulla stessa retta; in particolare quando $ \overrightarrow{a} $ e $ \overrightarrow{b} $ hanno la stessa direzione e stesso verso, oppure hanno stessa direzione ma verso opposto. In questi casi, quindi, il prodotto vettoriale è 0. Se pensiamo all'interpretazione geometrica vista in precedenza, il prodotto vettoriale è nullo perché l'altezza del parallelogramma è 0.
 
+Vediamo ancora una proprietà: sappiamo che il modulo di $ \overrightarrow{c} $ è uguale a:
+$$ c = ab \sin \Theta  $$
+dove, come detto prima, l'angolo $ \Theta $ è l'angolo che va dal vettore $ \overrightarrow{a} $ al vettore $ \overrightarrow{b} $ . Questo angolo è legato all'angolo che va dal vettore $ \overrightarrow{b} $ al vettore $ \overrightarrow{a} $ dalla seguente relazione:
+\newpage
 
+Se l'angolo che va da $ \overrightarrow{a} $ a $ \overrightarrow{b} $ vale $ \Theta $ , allora l'angolo  che va da $ \overrightarrow{b} $ ad $ \overrightarrow{a} $ è uguale a $ 2 \pi - \Theta $
 
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width = 0.5 \textwidth]{vettoriale4}
+\label{fig:vettoriale4}
+\end{center}
+\end{figure}
+
+Se facciamo quindi il prodotto vettoriale $ \overrightarrow{c}^{1} =  \overrightarrow{b} \times \overrightarrow{a} $ , il modulo di $\overrightarrow{c}^{1} $  è uguale a:
+
+$$ c^{1} = b\, a \sin(2 \pi - \Theta) $$
+
+Ma siccome il $ \sin(2 \pi - \Theta) $ è l'opposto del $ \sin \Theta $ , possiamo scrivere:
+$$ c^{1} = b\, a \sin(2 \pi - \Theta) = -b \, a \sin \Theta $$
+
+Per quanto riguarda la direzione di $ \overrightarrow{c}^{1} $ , anche lui è perpendicolare al piano definito da $ \overrightarrow{a} $ e $ \overrightarrow{b} $ .
+In altre parole, il modulo e la direzione di $ \overrightarrow{c}^{1} $ sono uguali a quelli del vettore $ \overrightarrow{c} $. Per quanto riguarda il verso, invece, se applichiamo la regola della mano destra (pollice lungo $\overrightarrow{b} $ e indice lungo $ \overrightarrow{a} $ ), otteniamo che il verso di $\overrightarrow{c}^{1} $ l'opposto di quello di $\overrightarrow{c} $ . Possiamo, quindi, scrivere che
+$$ \overrightarrow{b} \times \overrightarrow{a} = - \overrightarrow{a} \times \overrightarrow{b} $$
+
+Vediamo, adesso, come si fa a calcolare il prodotto vettoriale tra $ \overrightarrow{a} $ e $ \overrightarrow{b} $ se abbiamo specificato questi due vettori con le loro componenti cartesiane.
+
+Siano $ \overrightarrow{a} $ e $\overrightarrow{b} $ due vettori definiti come
+
+\begin{align*}
+\overrightarrow{a} = a_{x} \overrightarrow{i} + a_{y} \overrightarrow{j} + a_{z}\overrightarrow{k} \\
+\overrightarrow{ b} = b_{x} \overrightarrow{i} + b_{y} \overrightarrow{j} + b_{z} \overrightarrow{k} 
+\end{align*}
+
+% da finire prodotto vettoriale con componenti cartesiane%
+
+\section{Esercizio}
 
 \chapter{Lezione 2}
 \section{La cinematica}
