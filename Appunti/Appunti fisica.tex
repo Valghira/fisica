@@ -557,11 +557,193 @@ Anche in questo caso dobbiamo fare il prodotto vettoriale tra i termini di $\ove
 Dobbiamo capire, quindi, quanto valgono i prodotti vettoriali tra versori.
 
 \subsubsection{Prodotto vettoriale tra versori}
-Cominciamo calcolando quanto vale il prodotto vettoriale $ \overrightarrow{i} \times \overrightarrow{i} $: il risultato di questo prodotto è un vettore che ha
-% da completare %
+Cominciamo calcolando quanto vale il prodotto vettoriale $ \overrightarrow{i} \times \overrightarrow{i} $: il risultato di questo prodotto è un vettore che ha:
+modulo pari al modulo di $\overrightarrow{i} $ per il modulo di $ \overrightarrow{i} $ per il seno dell'angolo compreso tra $ \overrightarrow{i} $ e se stesso
+$$ \overrightarrow{i} \times \overrightarrow{i} = 1 \cdot 1 \cdot \sin 0 $$
+Sappiamo che $ \sin 0 = 0 $ quindi possiamo scrivere:
+\begin{align*}
+	\overrightarrow{i} \times \overrightarrow{i} = 1 \cdot 1 \cdot \sin 0 = 1 \cdot 1 \cdot 0 \\
+	\overrightarrow{i} \times \overrightarrow{i} = 0
+\end{align*}
+
+Inoltre
+$$ \overrightarrow{1} \times \overrightarrow{i} = \overrightarrow{j} \times \overrightarrow{j} = \overrightarrow{k} \times \overrightarrow{k} = 0 $$
+
+Utilizzando lo stesso ragionamento, vediamo quanto valgono gli altri prodotti.
+$$ \overrightarrow{i} \times \overrightarrow{j} = 1 \cdot 1 \cdot \sin \frac{\pi}{2} $$
+Essendo due versori, $ \overrightarrow{i} $ e $ \overrightarrow{j} $ hanno modulo pari a 1. Siccome questi due versori sono perpendicolari tra loro, l'angolo che va da $\overrightarrow{i} $ a $\overrightarrow{j} $ vale $ \frac{\pi}{2} $ .  Sappiamo che il $ \sin \frac{\pi}{2} = 1 $ , quindi possiamo scrivere:
+\begin{align*}
+\overrightarrow{i} \times \overrightarrow{j} = 1 \cdot 1 \cdot \sin \frac{\pi}{2} = 1 \cdot 1 \cdot 1 \\
+\overrightarrow{i} \times \overrightarrow{j} = 1
+\end{align*}
+
+Abbiamo capito, quindi, che $ \overrightarrow{i} \times \overrightarrow{j} $ è un vettore che ha modulo uguale a 1. Per quanto riguarda il verso, dobbiamo applicare la regola della mano destra.
+
+Per applicare la regola della mano destra, dobbiamo decidere in che modo sono orientati i versori $ \overrightarrow{i} , \overrightarrow{j} $ e $ \overrightarrow{k} $ . Solitamente, la convenzione che si usa è la seguente:
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width = 0.5 \textwidth]{convenzione versori}
+\label{fig:convenzione}
+\caption{Convenzione orientamento versori}
+\end{center}
+\end{figure}
+
+Utilizzando la regola della mano destra, mettiamo il pollice lungo $ \overrightarrow{i} $ e l'indice lungo $ \overrightarrow{j} $ ; così facendo, il verso (che è sempre indicato dal medio), sarà lungo $ \overrightarrow{k} $ .
+
+Possiamo scrivere, quindi, che il verso del prodotto vettoriale
+$$ \overrightarrow{i} \times \overrightarrow{j} = \overrightarrow{k} $$
+
+Analogamente possiamo determinare i versi di tutti gli altri prodotti
+\begin{align*}
+\overrightarrow{i} \times \overrightarrow{j} = \overrightarrow{k} \\
+\overrightarrow{j} \times \overrightarrow{k} = \overrightarrow{i} \\
+\overrightarrow{k} \times \overrightarrow{i} = \overrightarrow{j}
+\end{align*}
+\newpage
+Per ricordarci in maniera semplice questi prodotti, possiamo utilizzare questa figura
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width = 0.5 \textwidth]{vettoriale5}
+\label{fig:vettoriale5}
+\end{center}
+\end{figure}
+
+Se percorriamo questa figura al contrario rispetto alle frecce otteniamo anche le altre combinazioni che hanno, però, \textbf{un segno meno davanti}
+\begin{align*}
+\overrightarrow{j} \times \overrightarrow{i} = - \overrightarrow{k} \\
+\overrightarrow{k} \times \overrightarrow{j} = - \overrightarrow{i} \\
+\overrightarrow{i} \times \overrightarrow{k} = - \overrightarrow{j}
+\end{align*}
+
+Ricapitolando, se la nostra base ortonormale è composta da $ {\overrightarrow{i}, \overrightarrow{j}, \overrightarrow{k}} $ se facciamo il prodotto vettoriale di un versore con se stesso otteniamo 0 , se invece facciamo il prodotto vettoriale tra versori differenti abbiamo che:
+\begin{itemize}
+\item se percorriamo la figura in senso orario, otteniamo prodotti con un segno $ + $
+\item se percorriamo la figura in senso antiorario, otteniamo prodotti con un segno $ - $
+\end{itemize}
+
+Infine, siccome i prodotti vettoriali di versori con se stessi fanno 0, dei 9 termini totali ne rimangono 6 e raccogliendoli rispetto ai versori otteniamo;
+\begin{align*}
+\overrightarrow{a} \times \overrightarrow{b} = ( a_{x} \overrightarrow{i} + a_{y}\overrightarrow{j} + a_{z} \overrightarrow{k}  ) \times ( b_{x} \overrightarrow{i} + b_{y} \overrightarrow{j} + b_{z} \overrightarrow{k} = \\
+( a_{x} b_{y} - a_{y} b_{x} ) \overrightarrow{k} - ( a_{x} b_{z} - a_{z} b_{x} ) \overrightarrow{j} + ( a_{y} b_{z} - a_{z} b_{y} ) \overrightarrow{i}
+\end{align*}
+Un modo per memorizzare questa espressione è
+$$ \overrightarrow{a} \times \overrightarrow{b} = \begin{bmatrix}
+\overrightarrow{i} & \overrightarrow{j} & \overrightarrow{k} \\
+a_{x} & a_{y} & a_{z} \\
+b_{x} & b_{y} & b_{z}
+\end{bmatrix}  $$
+Il valore del prodotto vettoriale è rappresentato dal \textbf{determinante di questa matrice}.
+
+$$ \overrightarrow{a} \times \overrightarrow{b} = \begin{bmatrix}
+\overrightarrow{i} & \overrightarrow{j} & \overrightarrow{k} \\
+a_{x} & a_{y} & a_{z} \\
+b_{x} & b_{y} & b_{z}
+\end{bmatrix}  
+= ( a_{y} b_{z} - a_{z} b_{y} ) \overrightarrow{i} + ( a_{x} b_{y} - a_{y} b_{x} ) \overrightarrow{k} - ( a_{x} b_{z} - a_{z} b_{x} ) \overrightarrow{j}  $$
 
 \section{Esercizio}
-% da completare %
+Svolgiamo il seguente esercizio per applicare quanto visto fino adesso.
+
+Siano dati i vettori
+\begin{align*}
+\overrightarrow{a} = 4 \overrightarrow{i} + 3 \overrightarrow{j} \\
+\overrightarrow{b} = \overrightarrow{i} + 2 \overrightarrow{j}
+\end{align*}
+Calcolare:
+\begin{itemize}
+\item il modulo di $ \overrightarrow{a} $ e di $ \overrightarrow{b} $
+\item i versori corrispondenti alla direzione di $ \overrightarrow{a} $ e di $\overrightarrow{b} $
+\item i vettori somma $ \overrightarrow{s} = \overrightarrow{a} + \overrightarrow{b} $ e differenza $ \overrightarrow{d} = \overrightarrow{a} - \overrightarrow{b} $
+\item il prodotto scalare $ \overrightarrow{a} \prodscal \overrightarrow{b} $ e il prodotto vettoriale $ \overrightarrow{a} \times \overrightarrow{b} $
+\end{itemize}
+
+\subsubsection{Svolgimento}
+Cominciamo a calcolare il modulo di $\overrightarrow{a}$
+
+per calcolarlo, dalla teoria sappiamo che il modulo quadro di $ \overrightarrow{a} $ è la somma del quadrato delle componenti cartesiane
+\begin{align*}
+ a^{2} = {a^{2}}_{x} + {a^{2}}_{y} = \\
+  4^{2} + 3^{2} = 25 \rightarrow a = \sqrt{a^{2}} \\
+  a = \sqrt{25}\\
+  a = 5
+\end{align*}
+
+Stesso ragionamento per il modulo di $ \overrightarrow{b} $
+\begin{align*}
+b^{2} = {b^{2}}^{x} + {b^{2}}_{y} = \\
+1^{2} + 2^{2} = 5 \rightarrow b = \sqrt{b^{2}} \\
+b = \sqrt{5}
+\end{align*}
+
+Avendo calcolato i moduli, adesso possiamo calcolare i versori corrispondenti alle direzioni. Chiamiamo $ \overrightarrow{u}_{a} $ il versore lungo la direzione di $ \overrightarrow{a} $ e $ \overrightarrow{u}_{b} $ quello lungo $ \overrightarrow{b} $ .
+Per calcolare i versori, come abbiamo visto, calcoliamo i moduli (che già abbiamo), ne facciamo l'inverso e infine facciamo il prodotto scalare dell'inverso del modulo per il vettore di partenza:
+\begin{align*}
+\overrightarrow{u}_{a} = \frac{1}{a} \prodscal \overrightarrow{a} = \frac{1}{5} \prodscal (4\overrightarrow{i} + 3\overrightarrow{j}) 
+\end{align*}
+
+Volendo, possiamo finire qui, oppure se vogliamo fare le cose per bene scriviamo:
+\begin{align*}
+\overrightarrow{u}_{a} = \frac{1}{a} \prodscal \overrightarrow{a} = \frac{1}{5} \prodscal (4\overrightarrow{i} + 3\overrightarrow{j}) \\
+\overrightarrow{u}_{a} = \frac{4}{5} \overrightarrow{i} + \frac{3}{5} \overrightarrow{j}
+\end{align*}
+
+Facciamo la stessa cosa per $ \overrightarrow{b} $
+\begin{align*}
+\overrightarrow{u}_{b} = \frac{1}{b} \prodscal \overrightarrow{b} = \frac{1}{\sqrt{5}} \prodscal (\overrightarrow{i} + 2\overrightarrow{j}) \\
+\overrightarrow{u}_{a} = \frac{1}{\sqrt{5}} \overrightarrow{i} + \frac{2}{\sqrt{5}} \overrightarrow{j}
+\end{align*}
+Abbiamo, così, calcolato i versori.
+
+Riscriviamo i due vettori per comodità
+\begin{align*}
+\overrightarrow{a} = 4 \overrightarrow{i} + 3 \overrightarrow{j} \\
+\overrightarrow{b} = \overrightarrow{i} + 2 \overrightarrow{j}
+\end{align*}
+
+Calcoliamo vettore somma e vettore differenza:
+
+Siccome abbiamo le componenti cartesiane dei due vettori, il vettore somma sarà dato dalla somma delle due componenti $ x $ e la somma delle due componenti $ y $
+\begin{align*}
+\overrightarrow{s} = \overrightarrow{a} + \overrightarrow{b} = ( 4 + 1 )\overrightarrow{i} + ( 3 + 2 ) \overrightarrow{j} \\
+\overrightarrow{s} = 5 \overrightarrow{i} + 5 \overrightarrow{j}
+\end{align*}
+
+il vettore differenza sarà dato dalla differenza delle due componenti $ x $ e la differenza delle due componenti $ y $
+\begin{align*}
+\overrightarrow{d} = \overrightarrow{a} - \overrightarrow{b} = ( 4 - 1 )\overrightarrow{i} + ( 3 - 2 ) \overrightarrow{j} \\
+\overrightarrow{d} = 3 \overrightarrow{i} + \overrightarrow{j}
+\end{align*}
+
+Calcoliamo, ora il prodotto scalare tra $ \overrightarrow{a} $ e $ \overrightarrow{b} $ :
+
+Per calcolare questo prodotto, come abbiamo visto dalla teoria, basta fare la somma dei prodotti delle componenti con lo stesso indice.
+\begin{align*}
+\overrightarrow{a} \prodscal \overrightarrow{b} = a_{x} b_{x} + a_{y} b_{y} = 4 \cdot 1 + 3 \cdot 2 \\
+\overrightarrow{a} \prodscal \overrightarrow{b} = 4 + 6 \\
+\overrightarrow{a} \prodscal \overrightarrow{b} = 10
+\end{align*}
+
+Infine, calcoliamo il prodotto vettoriale tra $ \overrightarrow{a} $ e $ \overrightarrow{b} $ :
+Per calcolarlo o usiamo l'espressione ricavabile dal determinate della matrice:
+$$ \overrightarrow{a} \times \overrightarrow{b} = \begin{bmatrix}
+\overrightarrow{i} & \overrightarrow{j} & \overrightarrow{k} \\
+a_{x} & a_{y} & a_{z} \\
+b_{x} & b_{y} & b_{z}
+\end{bmatrix} $$
+oppure, possiamo semplicemente fare il prodotto vettoriale tra le componenti, facendo attenzione ai prodotti tra versori (noi utilizziamo questo modo):
+\begin{align*}
+\overrightarrow{a} \times \overrightarrow{b} = ( 4 \overrightarrow{i} + 3 \overrightarrow{j} ) \times ( \overrightarrow{i} + 2 \overrightarrow{j} ) \\
+\overrightarrow{a} \times \overrightarrow{b} = 4 \overrightarrow{i} \times \overrightarrow{i} + 4\overrightarrow{i} \times 2 \overrightarrow{j} + 3 \overrightarrow{j} \times \overrightarrow{i} + 3 \overrightarrow{j} \times 2 \overrightarrow{j} \\
+\overrightarrow{a} \times \overrightarrow{b} = 0 + 8 \overrightarrow{i} \times \overrightarrow{j} + 3 \overrightarrow{j} \times \overrightarrow{i} + 0 \\
+\overrightarrow{a} \times \overrightarrow{b} = 0 + 8\overrightarrow{i} \times \overrightarrow{j} - 3 \overrightarrow{i} \times \overrightarrow{j} + 0 \\
+\overrightarrow{a} \times \overrightarrow{b} = 5 \overrightarrow{i} \times \overrightarrow{j} \\
+\overrightarrow{a} \times \overrightarrow{b} = 5 \overrightarrow{k}
+\end{align*}
+
+
+
 
 \chapter{Lezione 2}
 \section{La cinematica}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  7 MAR 2021 12:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  7 MAR 2021 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -819,50 +819,68 @@ File: vettoriale4.png Graphic file (type png)
 <use vettoriale4.png>
 Package pdftex.def Info: vettoriale4.png  used on input line 530.
 (pdftex.def)             Requested size: 172.5pt x 62.16187pt.
- [21 <./vettoriale4.png>] [22
+ [21 <./vettoriale4.png>]
+<convenzione versori.png, id=115, 223.83624pt x 175.65625pt>
+File: convenzione versori.png Graphic file (type png)
+<use convenzione versori.png>
+Package pdftex.def Info: convenzione versori.png  used on input line 586.
+(pdftex.def)             Requested size: 172.5pt x 135.37364pt.
+ [22 <./convenzione versori.png>]
+<vettoriale5.png, id=119, 153.57375pt x 135.00438pt>
+File: vettoriale5.png Graphic file (type png)
+<use vettoriale5.png>
+Package pdftex.def Info: vettoriale5.png  used on input line 608.
+(pdftex.def)             Requested size: 172.5pt x 151.65086pt.
 
-]
+[23 <./vettoriale5.png>] [24]
+Underfull \vbox (badness 2635) has occurred while \output is active []
+
+ [25]
+[26]
 Capitolo 2.
-[23] [24
+[27
+
+] [28
 
 ]
 Capitolo 3.
-[25] [26
+[29] [30
 
 ]
 Capitolo 4.
-[27] (./Appunti fisica.aux) ) 
+[31] (./Appunti fisica.aux) ) 
 Here is how much of TeX's memory you used:
- 16218 strings out of 480608
- 303569 string characters out of 5903629
- 557807 words of memory out of 5000000
- 31808 multiletter control sequences out of 15000+600000
+ 16235 strings out of 480608
+ 303928 string characters out of 5903629
+ 562899 words of memory out of 5000000
+ 31824 multiletter control sequences out of 15000+600000
  553484 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,22n,60p,808b,336s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,22n,60p,808b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvip
 s/cm-super/cm-super-ts1.enc}{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips
 /cm-super/cm-super-t1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-
-super/sfbi1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-su
-per/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
-r/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
-sfbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sf
-bx2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx
-2488.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm10
-00.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200
-.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.p
-fb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb
-></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "Appunti fisica.pdf" (27 pages, 2704089 bytes).
+c/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/symbols/msam10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-s
+uper/sfbi1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
+er/sfbx1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super
+/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
+fbx1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfb
+x2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2
+488.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on "Appunti fisica.pdf" (31 pages, 2872478 bytes).
 PDF statistics:
- 194 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
+ 213 PDF objects out of 1000 (max. 8388607)
+ 136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 93 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 103 words of extra memory for PDF output out of 10000 (max. 10000000)
 
