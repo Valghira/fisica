@@ -31,6 +31,6 @@
 \contentsline {section}{\numberline {2.1}La cinematica}{27}%
 \contentsline {subsection}{\numberline {2.1.1}Definizione di moto}{27}%
 \contentsline {subsection}{\numberline {2.1.2}Sistema di riferimento}{27}%
-\contentsline {chapter}{\numberline {3}Lezione 3}{29}%
-\contentsline {section}{\numberline {3.1}Le leggi di Newton}{29}%
-\contentsline {chapter}{\numberline {4}Esercitazione 1}{31}%
+\contentsline {chapter}{\numberline {3}Lezione 3}{31}%
+\contentsline {section}{\numberline {3.1}Le leggi di Newton}{31}%
+\contentsline {chapter}{\numberline {4}Esercitazione 1}{33}%

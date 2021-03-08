@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  8 MAR 2021 18:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  8 MAR 2021 19:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -846,20 +846,42 @@ File: sistema riferimento1.png Graphic file (type png)
 <use sistema riferimento1.png>
 Package pdftex.def Info: sistema riferimento1.png  used on input line 763.
 (pdftex.def)             Requested size: 172.5pt x 143.1756pt.
- [28 <./sistema riferimento1.png>]
+<sistema riferimento2.png, id=138, 397.485pt x 335.2525pt>
+File: sistema riferimento2.png Graphic file (type png)
+<use sistema riferimento2.png>
+Package pdftex.def Info: sistema riferimento2.png  used on input line 774.
+(pdftex.def)             Requested size: 172.5pt x 145.49603pt.
+ [28 <./sistema riferimento1.png> <./sistema riferimento2.png>]
+<sistema riferimento3.png, id=142, 432.61626pt x 371.88937pt>
+File: sistema riferimento3.png Graphic file (type png)
+<use sistema riferimento3.png>
+Package pdftex.def Info: sistema riferimento3.png  used on input line 785.
+(pdftex.def)             Requested size: 172.5pt x 148.2878pt.
+<sistema riferimento4.png, id=143, 431.6125pt x 367.87437pt>
+File: sistema riferimento4.png Graphic file (type png)
+<use sistema riferimento4.png>
+Package pdftex.def Info: sistema riferimento4.png  used on input line 794.
+(pdftex.def)             Requested size: 172.5pt x 147.02364pt.
+ [29 <./sistema riferimento3.png> <./sistema riferimento4.png>]
+<sistema riferimento5.png, id=147, 439.6425pt x 388.45125pt>
+File: sistema riferimento5.png Graphic file (type png)
+<use sistema riferimento5.png>
+Package pdftex.def Info: sistema riferimento5.png  used on input line 809.
+(pdftex.def)             Requested size: 172.5pt x 152.4141pt.
+ [30 <./sistema riferimento5.png>]
 Capitolo 3.
-[29
+[31
 
-] [30
+] [32
 
 ]
 Capitolo 4.
-[31] (./Appunti fisica.aux) ) 
+[33] (./Appunti fisica.aux) ) 
 Here is how much of TeX's memory you used:
- 16244 strings out of 480608
- 304155 string characters out of 5903629
- 562946 words of memory out of 5000000
- 31832 multiletter control sequences out of 15000+600000
+ 16280 strings out of 480608
+ 305063 string characters out of 5903629
+ 563134 words of memory out of 5000000
+ 31864 multiletter control sequences out of 15000+600000
  553484 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,22n,60p,808b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -883,10 +905,10 @@ x2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2
 pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "Appunti fisica.pdf" (31 pages, 3131587 bytes).
+Output written on "Appunti fisica.pdf" (33 pages, 4427786 bytes).
 PDF statistics:
- 214 PDF objects out of 1000 (max. 8388607)
- 136 compressed objects within 2 object streams
+ 224 PDF objects out of 1000 (max. 8388607)
+ 140 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 108 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
