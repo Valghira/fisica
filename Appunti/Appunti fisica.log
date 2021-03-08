@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  7 MAR 2021 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.12.11)  8 MAR 2021 18:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -840,20 +840,26 @@ Underfull \vbox (badness 2635) has occurred while \output is active []
 Capitolo 2.
 [27
 
-] [28
-
 ]
+<sistema riferimento1.png, id=137, 401.5pt x 333.245pt>
+File: sistema riferimento1.png Graphic file (type png)
+<use sistema riferimento1.png>
+Package pdftex.def Info: sistema riferimento1.png  used on input line 763.
+(pdftex.def)             Requested size: 172.5pt x 143.1756pt.
+ [28 <./sistema riferimento1.png>]
 Capitolo 3.
-[29] [30
+[29
+
+] [30
 
 ]
 Capitolo 4.
 [31] (./Appunti fisica.aux) ) 
 Here is how much of TeX's memory you used:
- 16235 strings out of 480608
- 303928 string characters out of 5903629
- 562899 words of memory out of 5000000
- 31824 multiletter control sequences out of 15000+600000
+ 16244 strings out of 480608
+ 304155 string characters out of 5903629
+ 562946 words of memory out of 5000000
+ 31832 multiletter control sequences out of 15000+600000
  553484 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,22n,60p,808b,338s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -877,10 +883,10 @@ x2074.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2
 pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pf
 b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb>
 </usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "Appunti fisica.pdf" (31 pages, 2872478 bytes).
+Output written on "Appunti fisica.pdf" (31 pages, 3131587 bytes).
 PDF statistics:
- 213 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  136 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 103 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
