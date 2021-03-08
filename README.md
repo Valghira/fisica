@@ -1,1 +1,1 @@
-# Appunti del corso di Fisica 2020/2022 
+# Appunti del corso di Fisica 2020/2021 
