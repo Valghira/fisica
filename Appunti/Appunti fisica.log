@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.6)  9 MAR 2021 10:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.6)  9 MAR 2021 10:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -573,12 +573,12 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 Capitolo 1.
 [5] [6] [7]
-<direzione.png, id=45, 364.36125pt x 84.315pt>
-File: direzione.png Graphic file (type png)
-<use direzione.png>
-Package pdftex.def Info: direzione.png  used on input line 102.
+<lezione1/images/direzione.png, id=45, 364.36125pt x 84.315pt>
+File: lezione1/images/direzione.png Graphic file (type png)
+<use lezione1/images/direzione.png>
+Package pdftex.def Info: lezione1/images/direzione.png  used on input line 102.
 (pdftex.def)             Requested size: 172.5pt x 39.91623pt.
- [8 <c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/direzione.png>]
+ [8 <c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/lezione1/images/direzione.png>]
 <lezione1/images/vettore 1.png, id=52, 220.825pt x 146.5475pt>
 File: lezione1/images/vettore 1.png Graphic file (type png)
 <use lezione1/images/vettore 1.png>
@@ -733,10 +733,10 @@ Capitolo 3.
 Capitolo 4.
 [33] (c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/Appunti fisica.aux (c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/lezione1/lezione1.aux) (c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/lezione2/lezione2.aux)) ) 
 Here is how much of TeX's memory you used:
- 16743 strings out of 479023
- 317106 string characters out of 5863351
+ 16742 strings out of 479023
+ 317173 string characters out of 5863351
  646471 words of memory out of 5000000
- 33876 multiletter control sequences out of 15000+600000
+ 33874 multiletter control sequences out of 15000+600000
  424576 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,22n,89p,798b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
