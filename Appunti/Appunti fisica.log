@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.6)  9 MAR 2021 10:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2021.3.6)  9 MAR 2021 11:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -721,6 +721,11 @@ File: lezione2/images/sistema riferimento5.png Graphic file (type png)
 <use lezione2/images/sistema riferimento5.png>
 Package pdftex.def Info: lezione2/images/sistema riferimento5.png  used on input line 65.
 (pdftex.def)             Requested size: 172.5pt x 152.4141pt.
+
+
+LaTeX Warning: Command \` invalid in math mode on input line 78.
+
+Missing character: There is no à in font cmr10!
 ) [30 <c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/lezione2/images/sistema riferimento5.png>]
 Capitolo 3.
 [31
@@ -740,11 +745,11 @@ Here is how much of TeX's memory you used:
  424576 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  87i,22n,89p,798b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
-{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on "c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/Appunti fisica.pdf" (33 pages, 4427721 bytes).
+{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{d:/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1000.pfb><d:/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb>
+Output written on "c:/Users/silve/Documents/GitHub/Uni/fisica/Appunti/Appunti fisica.pdf" (33 pages, 4446859 bytes).
 PDF statistics:
- 224 PDF objects out of 1000 (max. 8388607)
- 140 compressed objects within 2 object streams
+ 228 PDF objects out of 1000 (max. 8388607)
+ 143 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  128 words of extra memory for PDF output out of 10000 (max. 10000000)
 
