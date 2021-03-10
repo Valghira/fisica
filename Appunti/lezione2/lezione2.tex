@@ -90,7 +90,42 @@ originato e termianto nello stesso punto, qualunque fosse il percorso, avrebbe
 la stessa velocità media a parità del tempo impiegato.
 
 Introduciamo la \textit{velocità istantanea} 
-$\overrightarrow{V}_{istantanea}= \lim_{\Delta t \to 0} \overrightarrow{V}_{media}$
+\begin{equation} 
+    \overrightarrow{V}_{istantanea}= 
+    \lim_{\Delta t \to 0} \overrightarrow{V}_{media} = 
+    \lim_{\Delta t \to 0} \frac { \overrightarrow{r}(t+\Delta t) * \overrightarrow{r}(t) }{\Delta t} = 
+    \diffp{\overrightarrow{r}}{t}
+\end{equation}
+
+Anche la velocità istantanea come quella media è un vettore e dato che
+abbiamo $\frac {t +\Delta t} {t}$ dove $\lim_{\Delta t \to 0}$  è un limite che tende a $0$,
+può essere pensata come una derivata.
+Ovviamente  le dimensioni di \textit{velocità media}
+saranno sempre $[V]=\frac{L}{T}$.
+ Essendo un vettore possiamop esprimere la velocità media
+ secondo le sue componenti cartesiane 
+ $\overrightarrow{v}= v_{x}\overrightarrow{i} + v_{y}\overrightarrow{j} + v_{z}\overrightarrow{k}$
+
+Le componenti sono legate alla velocità in questo modo:
+$v^2= \overrightarrow{v}*\overrightarrow{v}= v_{x}^2+v_{y}^2+v_{z}^2$
+
+Per descrivere la posizione del corpo puntiforme, come
+così come abbiamo introdotto prima la velocità media e poi la
+velocità istantantanea, analogamente anche il vettore velocità istantantanea
+cambia nel tempo. Abbiamo bisogno di qualcosa che ci dica \textit{di quanto}
+cambia la velocità istantanea. 
+
+
+Se in un istante $t$ ha velocità $\overrightarrow{v}(t)$, 
+dopo un certo tempo avrà  $\overrightarrow{v}(t +\Delta t)$ e quindi 
+possiamo introdurre l'\textit{accellerazione media}
+\begin{equation}
+    \overrightarrow{a}=
+    \frac{\overrightarrow{v}(t +\Delta t) - \overrightarrow{v}(t)}{\Delta t} 
+\end{equation}
+
+Le unità di misura sono
+ $[A_{media}]=\frac{[v]}{[\Delta t]}= \frac{L/T}{T}=\frac{L}{T^2}$
 
 
 
