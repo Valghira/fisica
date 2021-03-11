@@ -31,7 +31,7 @@ L'origine del sistema di riferimento viene indicata con $ O $
 \label{fig:riferimento2}
 \end{center}
 \end{figure}
-
+\subsection{Descrivere il moto}
 Se prendiamo come sistema di riferimento quello rappresentato in figura, abbiamo che la posizione di un oggetto a un certo istante $ t $ , è determinata da un \textbf{vettore posizione} definito con le componenti cartesiane. 
 \newpage
 Questo vettore posizione, rappresenta (in questo caso), la posizione iniziale dell'oggetto di cui stiamo descrivendo il moto. 
@@ -69,10 +69,10 @@ In pratica stiamo utilizzando il vettore opposto a $ \overrightarrow{r} (t) $
 
 Si può verificare che se facciamo la somma  $ \delta \overrightarrow{r} + \overrightarrow{r} ( t ) $ effettivamente otteniamo il vettore $ \overrightarrow{r} ( t + \delta t ) $ , cioè il vettore posizione all'istante $ t + \Delta t $ .
 
-Per descrivere il moto dobbiamo introdurre due quantità: la \textit{velocità} e l'\textit{accellerazione}.
+Per descrivere il moto dobbiamo introdurre due quantità: la \textit{velocità} e l'\textit{accelerazione}.
 
 Definiamo come \textit{Velocità Media} il rapporto tra il vettore spostamento e il tempo che è intercorso 
-tra l'istante $ t + \Delta t$. 
+tra l'istante $ t + \Delta t$ (Sappiamo che se l'oggetto si muove il vettore spostamento è diverso da zero) . 
 
 
 $Velocità\   media \overrightarrow{v}_{media} =\frac{\Delta \overrightarrow{r} }{\Delta t} $ 
@@ -83,10 +83,10 @@ moltiplicata per $\frac{1}{\Delta t}$ che è uno scalare, quindi il risultato è
 un vettore. 
 Le unità di misura della velocità media sono quelle del modulo dello spostamento
 diviso quelle del tempo, dimensionalmente quindi $[V_{media}= \frac{L}{T} ]$ dove $[\Delta\overrightarrow{r}]= L$
-$[\Delta t]= T$ (Le prantesi quadre indicano che ci riferiamo alle unità di misura e non al valore).
+$[\Delta t]= T$ (Le parentesi quadre indicano che ci riferiamo alle unità di misura e non al valore).
 
-La velocità media ovviamente non ci "soddisfa" a pieno perchè qualunque spostamento
-originato e termianto nello stesso punto, qualunque fosse il percorso, avrebbe
+La velocità media ovviamente non ci "soddisfa" a pieno perché qualunque spostamento
+originato e termin  ato nello stesso punto, qualunque fosse il percorso, avrebbe
 la stessa velocità media a parità del tempo impiegato.
 
 Introduciamo la \textit{velocità istantanea} 
@@ -102,30 +102,64 @@ abbiamo $\frac {t +\Delta t} {t}$ dove $\lim_{\Delta t \to 0}$  è un limite che
 può essere pensata come una derivata.
 Ovviamente  le dimensioni di \textit{velocità media}
 saranno sempre $[V]=\frac{L}{T}$.
- Essendo un vettore possiamop esprimere la velocità media
+ Essendo un vettore possiamo esprimere la velocità media
  secondo le sue componenti cartesiane 
  $\overrightarrow{v}= v_{x}\overrightarrow{i} + v_{y}\overrightarrow{j} + v_{z}\overrightarrow{k}$
 
 Le componenti sono legate alla velocità in questo modo:
-$v^2= \overrightarrow{v}*\overrightarrow{v}= v_{x}^2+v_{y}^2+v_{z}^2$
+$v^2= \overrightarrow{v} \prodscal\overrightarrow{v}= v_{x}^2+v_{y}^2+v_{z}^2$
 
 Per descrivere la posizione del corpo puntiforme, come
 così come abbiamo introdotto prima la velocità media e poi la
-velocità istantantanea, analogamente anche il vettore velocità istantantanea
+velocità istantanea, analogamente anche il vettore velocità istantanea
 cambia nel tempo. Abbiamo bisogno di qualcosa che ci dica \textit{di quanto}
 cambia la velocità istantanea. 
 
 
 Se in un istante $t$ ha velocità $\overrightarrow{v}(t)$, 
 dopo un certo tempo avrà  $\overrightarrow{v}(t +\Delta t)$ e quindi 
-possiamo introdurre l'\textit{accellerazione media}
+possiamo introdurre l'\textit{accelerazione media}
 \begin{equation}
     \overrightarrow{a}=
     \frac{\overrightarrow{v}(t +\Delta t) - \overrightarrow{v}(t)}{\Delta t} 
 \end{equation}
 
 Le unità di misura sono
- $[A_{media}]=\frac{[v]}{[\Delta t]}= \frac{L/T}{T}=\frac{L}{T^2}$
+ $[a_{media}]=\frac{[v]}{[\Delta t]}= \frac{L/T}{T}=\frac{L}{T^2}$
 
-A
+Anche in questo caso, come abbiamo fatto per la velocità,  anziché considerare l'accelerazione media possiamo vedere cosa capita, quando la differenza di tempi diventa sempre più piccola facendo di nuovo un limite:
+$$ a_{istantanea} = \lim_{ \Delta t \to 0} {\overrightarrow{a}_{media} } = \overrightarrow{a}  $$
+Chiameremo questa quantità \textit{accelerazione istantanea} o più semplicemente \textit{accelerazione}.
+Anche l'accelerazione può essere descritta con le componenti cartesiane:
+$$ \overrightarrow{a} = a_{x} \overrightarrow{i} + a_{y} \overrightarrow{j} + a_{z} \overrightarrow{k} $$
+Inoltre il modulo quadro dell'accelerazione è definito come il prodotto scalare dell'accelerazione con se stessa
+$$ a^{2} = \overrightarrow{a} \prodscal \overrightarrow{a} = {a^{2}}_{x} + {a^{2}}_{y} + {a^{2}}_{z} $$
+Facendo poi la radice quadrata di questa quantità, ricaviamo il modulo dell'accelerazione.
+
+Questo, è tutto ciò che ci serve per descrivere il moto; ricapitolando per descrivere il moto dobbiamo:
+\begin{itemize}
+	\item introdurre un sistema di riferimento
+	\item descrivere il corpo che si muove all'interno di questo sistema con un vettore posizione
+	\item se la posizione cambia nel tempo, dobbiamo introdurre un vettore spostamento
+	\item lo spostamento per unità di tempo, perso per $\Delta t \to 0$ definisce la velocità istantanea (anch'essa è un vettore)
+	\item se la velocità istantanea varia nel tempo,  prendendo il limite in cui $\Delta t \to 0$,  possiamo introdurre la variazione della velocità istantanea fatta rispetto al tempo, ottenendo un altro vettore chiamato accelerazione istantanea o più semplicemente accelerazione
+\end{itemize}
+
+Utilizzeremo adesso le quantità viste fin'ora per descrivere il \textbf{moto rettilineo} e il \textbf{moto circolare}.
+
+\subsection{Moto rettilineo}
+Il moto rettilineo è un moto in cui il nostro corpo puntiforme, si muove lungo una retta; tipicamente la retta che viene scelta, lungo la quale avviene il moto è l'asse delle $ x $.
+Dobbiamo, quindi introdurre un sistema di riferimento (in questo caso scegliamo l'asse delle $ x $ , perché è la retta lungo la quale avviene il moto), e dobbiamo scegliere un'origine.
+\newpage
+Supponiamo che il nostro sistema di riferimento, sia quello rappresentato in figura, dove $ x = 0 $ rappresenta l'origine.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width = 0.5 \textwidth]{lezione2/images/rettilineo1}
+\label{fig:rettilineo1}
+\end{center}
+\end{figure}
+
+
+
 
