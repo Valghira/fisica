@@ -148,10 +148,17 @@ Questo, è tutto ciò che ci serve per descrivere il moto; ricapitolando per des
 Utilizzeremo adesso le quantità viste fin'ora per descrivere il \textbf{moto rettilineo} e il \textbf{moto circolare}.
 
 \subsection{Moto rettilineo}
-Il moto rettilineo è un moto in cui il nostro corpo puntiforme, si muove lungo una retta; tipicamente la retta che viene scelta, lungo la quale avviene il moto è l'asse delle $ x $.
-Dobbiamo, quindi introdurre un sistema di riferimento (in questo caso scegliamo l'asse delle $ x $ , perché è la retta lungo la quale avviene il moto), e dobbiamo scegliere un'origine.
+Il moto rettilineo è un moto in cui il nostro corpo puntiforme, 
+si muove lungo una retta; tipicamente la retta che viene scelta, 
+lungo la quale avviene il moto è l'asse delle $ x $.
+Dobbiamo, quindi introdurre un sistema di riferimento 
+(in questo caso scegliamo l'asse delle $ x $ , 
+perché è la retta lungo la quale avviene il moto),
+ e dobbiamo scegliere un'origine.
 \newpage
-Supponiamo che il nostro sistema di riferimento, sia quello rappresentato in figura, dove $ x = 0 $ rappresenta l'origine.
+Supponiamo che il nostro sistema di riferimento, 
+sia quello rappresentato in figura, dove $ x = 0 $ 
+rappresenta l'origine.
 
 \begin{figure}[h]
 \begin{center}
@@ -160,6 +167,127 @@ Supponiamo che il nostro sistema di riferimento, sia quello rappresentato in fig
 \end{center}
 \end{figure}
 
+Da prima sappiamo che il vettore posizione 
+$\overrightarrow{r}(t)=x(t)\overrightarrow{i}+y(t)\overrightarrow{j}+z(t)\overrightarrow{k} $
+e che la velocità è 
+$\overrightarrow{v}(t)=v_{x}(t)\overrightarrow{i}+v_y(t)\overrightarrow{j}+v_z(t)\overrightarrow{k}$
+e analogamente l'accelerazione
+$\overrightarrow{a}(t)=a_{x}(t)\overrightarrow{i}+a_y(t)\overrightarrow{j}+a_z(t)\overrightarrow{k}$
+
+Se il moto avviene solamente lungo l'asse delle $x$ allora la coordinata $y$
+non cambierà mai e se non cambia allora la variazione della coordinata y sarà $0$
+e la variazione della coordinata y mi darà la componente lungo 
+y della velocità. 
+
+Ma se la componente lungo y della velocità non cambia mai, allora anche la
+componente lungo y dell'accelerazione sarà $0$.
+Quindi nelle formule prcedenti avremo $v_y=0 \; e \;  v_z=0$
+e anche nell'accelerazione $a_y=0 \; e \; a_z=0$.\\
+
+Quindi per studiare il moto rettilineo l'unica parte interessante
+è la componente delle $x$ ignorando le altre:
+
+$\overrightarrow{r}(t)=x(t)\overrightarrow{i}$
+
+$\overrightarrow{v}(t)=v_{x}(t)\overrightarrow{i}$ 
+
+$\overrightarrow{a}(t)=a_{x}(t)\overrightarrow{i}$ 
+
+ricordandoci sempre che sono dei vettori, 
+in cui $v_x$ ci dice \textit{quanto} e in che direzione
+(positiva o negativa) spostiamo 
+il versore $\overrightarrow{i}$.
+
+Per la velocità sappiamo che è la derivata della posizione rispetto
+al tempo:
+
+\begin{equation}
+\overrightarrow{v}=\diffp{\overrightarrow{r}}{t} \rightarrow v_x=\diffp{x}{t}
+\end{equation}
+
+e l'accelerazione sarà:
+
+\begin{equation}
+    \overrightarrow{a}=\diffp{\overrightarrow{v}}{t} \rightarrow a_x=\diffp{V_x}{t}
+\end{equation}
+
+Possiamo notare come non ci sia più la componente y e z per cui:
+
+$v=\diffp{x}{t}$
+
+$a=\diffp{v}{t}=\diffp{dx}{dt}=\frac{d^2x}{dt^2}$
+
+Quindi osserviamo che x è una variabile in funzione del tempo, 
+v la derivata prima di x rispettto al tempo e a la derivata seconda.
+
+Riassumendo le equazioni del moto rettilineo sono:
+
+$x(t)$
+
+$v=\diffp{x}{t}$
+
+$a=\frac{dv}{dt}=\frac{d^2x}{d t^2}$
+
+Di solito i problemi nel moto rettilineo si dividono in 
+
+\begin{itemize}
+\item conosciuamo la posizone
+$x(t)$ (detta legge oraria) e vogliamo trovare la velocità e l'accelerazione.
+
+\item Conosciamo l'accellerazione e vogliamo velocità e legge oraria
+\end{itemize}
+
+Nella seconda tipologia dovremo ricavare la velocità usando l'integrale
+(che è l'inverso delle derivata) , passando quindi dalla derivata seconda(accellerazione)
+a derivata prima (velocità) di $x(t)$.
+
+(Se a una funzione x applichiamo l'integrale ottenendo
+una fuznione y 
+allora y è una \textit{primitiva} di x )
+
+Successivamente integrando di nuovo passiamo dalla velocità alla 
+legge oraria $x(t)$.
+
+% gather* permette di mettere più equazioni nello stesso ambiente senza numerarle
+% gather invece le numera
+\begin{equation}
+    a(t)=\frac{dv}{dt} \rightarrow v(t)= \int {a(t) dt} +c1 \rightarrow v(t=t_0)
+\end{equation}
+
+\begin{equation}
+    v(t)=\frac{dx}{dt} \rightarrow x(t)= \int {v(t)dt} +c2 \rightarrow x(t=t_0)
+\end{equation}
 
 
+ Risolvere l'integrale può essere complicato o facile a seconda della funzione
+ da integrare.
+Il motivo per cui aggiungiamo le costanti c1 e c2 è
+che nel caso generale vanno messe ma poi quando deriviamo 
+essendo costanti valgono $0$.
 
+Dal punto di vista fisica significa che l'integrale è una
+funzione del tempo, mentre la costante c inica il punto da cui siamo
+partiti
+
+\begin{equation}
+   v(t)= \int {a(t)dt} +c1 \rightarrow 
+   \frac{d}{dt}[\int{a(t)dt}+c1]=
+   \frac{d}{dt}\int{a(t)dt}\rightarrow \frac{d}{dt}c1=a(t)
+\end{equation}
+
+Riassumendo:
+
+Condizioni iniziali $t=0$
+$v(t=0)=v_0$ e $x(t_0)=x_0$
+
+\begin{center}
+    \begin{tabular}{ |c|c|c|c| } 
+     \hline
+     $a(t)$ & $v(t)$ & $v(t)$ & Tipo di moto \\ 
+     \hline
+        $a\neq 0 (costante)$ & $at+v_0$ & $\frac{1}{2}at^2+v_0t+x_0$ & Moto rettilineo unif. acc. \\ 
+     $0$ & $v_0 \neq 0$ & $v_0t+x_0$ & Moto ret. uniforme \\ 
+     $0$ & $0$ & $0$ & quiete \\
+     \hline
+    \end{tabular}
+\end{center}
